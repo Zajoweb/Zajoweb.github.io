@@ -143,11 +143,13 @@ body
 #section1
 {
   background-color: green;
+  box-sizing: border-box;
 }
 
 #section2
 {
   background-color: blue;
+  box-sizing: border-box;
 }
 
 /* Indicator Transitions */
