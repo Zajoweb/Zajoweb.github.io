@@ -1,3 +1,4 @@
+//Animation on buttons in menu
 const list = document.querySelectorAll(".list");
 
 function activeLink()
@@ -8,6 +9,7 @@ function activeLink()
 
 list.forEach((item) => item.addEventListener("click", activeLink));
 
+//Scrolling
 $(document).ready(function()
 {
   $('a').on("click", function(event)
@@ -20,7 +22,7 @@ $(document).ready(function()
 
       $("html, body").animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
+      }, 1000, function(){
         window.location.hash = hash;
       });
     }
