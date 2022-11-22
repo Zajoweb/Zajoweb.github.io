@@ -12,6 +12,7 @@
 {
   --clr: #000;
   --bg: #0d1117;
+  --menu: white;
 }
 
 html
@@ -34,7 +35,7 @@ body
   top: 40px;
   width: 880px;
   height: 70px;
-  background: #fff;
+  background: var(--menu);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,14 +143,12 @@ body
 
 #section1
 {
-  background-color: green;
-  box-sizing: border-box;
+  color: grey;
 }
 
 #section2
 {
-  background-color: blue;
-  box-sizing: border-box;
+  color: grey;
 }
 
 /* Indicator Transitions */
